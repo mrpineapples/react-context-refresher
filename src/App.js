@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable no-const-assign */
+import React, { useContext } from 'react';
+import styled from "styled-components";
+import Blue from './components/Blue';
+import CountContext from './context/CountContext';
 
-function App() {
+const Box = styled.div`
+  margin: 1rem auto;
+  height: 500px;
+  width: 1000px;
+  background-color: red;
+  color: #ffffff;
+`
+
+const App = () => {
+  const count = useContext(CountContext);
+  console.log(count)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Box>
+      <div>This uses context</div>
+      <div>Total Clicks: {count.total}</div>
+      <Blue />
+    </Box>
+  )
 }
 
 export default App;
