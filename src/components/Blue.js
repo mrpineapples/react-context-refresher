@@ -7,7 +7,6 @@ const BlueBox = styled.div`
   height: 425px;
   width: 900px;
   background-color: blue;
-  color: #ffffff;
 `
 
 const Blue = () => {

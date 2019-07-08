@@ -7,7 +7,6 @@ const GreenBox = styled.div`
   height: 350px;
   width: 800px;
   background-color: green;
-  color: #ffffff;
 `
 
 const Green = () => {

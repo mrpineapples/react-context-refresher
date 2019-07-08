@@ -18,8 +18,7 @@ const App = () => {
 
   return (
     <Box>
-      <div>This uses context</div>
-      <div>Total Clicks: {count.total}</div>
+      <div>Total Clicks from context: {count.total}</div>
       <Blue />
     </Box>
   )
