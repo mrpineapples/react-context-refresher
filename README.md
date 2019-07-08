@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Goal
+
+This is a small project I created to show how to use React context. Feel free to use this as a quick refresher. `CountContext.js`, `index.js`, `App.js`, and `Pink.js` are the files which contain most of the information on context in case you don't want to pull and run locally. `Pink.js` also contains a brief summary.
+
+## Preview
+
+[![Screen-Shot-2019-07-07-at-8-58-29-PM.png](https://i.postimg.cc/h46MhvYK/Screen-Shot-2019-07-07-at-8-58-29-PM.png)](https://postimg.cc/XXK9zj3P)
+
 ## Available Scripts
 
 In the project directory, you can run:
